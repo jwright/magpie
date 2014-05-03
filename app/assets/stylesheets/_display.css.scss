@@ -1,0 +1,16 @@
+@import 'variables';
+
+.display {
+  label {
+    display: block;
+    color: $color-burnt-orange;
+    font-weight: normal;
+  }
+  .field {
+    border: solid 1px $color-burnt-orange;
+    background: $color-burnt-orange;
+    color: $color-orange;
+    font-size: 16px;
+    padding: 10px;
+  }
+}

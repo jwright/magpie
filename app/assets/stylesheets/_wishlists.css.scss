@@ -1,0 +1,64 @@
+@import 'variables';
+
+.wishlist-sidebar-list {
+  h2 {
+    color: $color-burnt-orange;
+    border-bottom: solid 1px $color-burnt-orange;
+    opacity: 0.8;
+    width: 80%;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style-type: none;
+      list-style-position: inside;
+      font-family: 'OpenSansBold';
+      font-size: 1.2em;
+      border-bottom: solid 1px $color-burnt-orange;
+      width: 80%;
+      padding: 10px 0;
+      position: relative;
+
+      .count {
+        position: absolute;
+        right: 0px;
+      }
+
+      a {
+        color: $color-burnt-orange;
+        &:hover {
+          text-decoration: none;
+        }
+        &.active {
+          color: $color-white;
+        }
+      }
+
+      &.new {
+        display: none;
+        input[type=text] {
+          background: $color-orange;
+          border: none;
+          border-bottom: solid 1px $color-white;
+          color: $color-white;
+          font-size: 0.8em;
+          width: 86%;
+        }
+      }
+    }
+  }
+}
+
+.list-index-content, .list-show-content {
+  .welcome {
+    h5 {
+      padding-bottom: 0px;
+    }
+    img {
+      margin-top: -35px;
+      margin-left: -30px;
+    }
+  }
+}

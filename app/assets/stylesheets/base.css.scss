@@ -1,0 +1,36 @@
+@import 'variables';
+@import 'fonts';
+
+body {
+  background-color: $color-orange;
+  background-image: url(bird.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right -145px bottom -140px;
+  font-family: 'OpenSansRegular';
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.padded {
+  padding: 20px 0;
+}
+
+a {
+  color: $color-white;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    color: $color-white;
+  }
+}

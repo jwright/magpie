@@ -1,0 +1,26 @@
+@import "variables";
+@import "fonts";
+
+.body-content {
+  border-top: solid 1px #c53f20;
+  padding-top: 50px;
+  clear: both;
+  text-align: left;
+
+  h1 {
+    font-size: 6em;
+    text-transform: lowercase;
+    text-shadow: 2px 2px $color-burnt-orange;
+    color: $color-white;
+    font-family: 'ProximaNovaBold';
+    letter-spacing: -3px;
+    margin-bottom: 0px;
+  }
+
+  h5 {
+    font-size: 1.8em;
+    color: $color-burnt-orange;
+    padding-bottom: 20px;
+    font-family: 'OpenSansBold';
+  }
+}

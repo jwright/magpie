@@ -1,0 +1,65 @@
+@import 'variables';
+
+.wishlist-items {
+  padding-top: 50px;
+
+  .item {
+    float: left;
+    border-bottom: solid 1px $color-burnt-orange;
+    padding: 10px 5px;
+    width: 40%;
+    overflow: auto;
+    margin-left: 20px;
+
+    &:nth-child(1), &:nth-child(2) {
+      border-top: solid 1px $color-burnt-orange;
+    }
+
+    a {
+      color: $color-black;
+    }
+
+    .name {
+      font-family: 'OpenSansBold';
+      float: left;
+    }
+
+    .price {
+      float: right;
+    }
+
+    .add {
+      opacity: 0.4;
+      a {
+        color: $color-black;
+      }
+    }
+  }
+}
+
+.wishlist-item {
+  h1 {
+    padding-bottom: 50px;
+  }
+
+  .name {
+    float: left;
+    color: $color-white;
+    font-family: 'OpenSansBold';
+  }
+
+  .price {
+    float: right;
+    font-family: 'OpenSansBold';
+  }
+
+  .description {
+    padding-top: 20px;
+    color: $color-white;
+  }
+
+  img {
+    border: solid 4px $color-white;
+  }
+}
+

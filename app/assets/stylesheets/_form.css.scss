@@ -1,0 +1,88 @@
+@import "variables";
+
+form {
+  label {
+    display: block;
+    color: $color-burnt-orange;
+    font-weight: normal;
+  }
+
+  .actions {
+    border-top: solid 1px $color-burnt-orange;
+    padding-top: 10px;
+
+    a.cancel {
+      padding-left: 30px;
+    }
+  }
+
+  .field.inline {
+    float: left;
+    padding-right: 20px;
+
+    &.last {
+      float: right;
+    }
+  }
+
+  .field.last {
+    padding-bottom: 10px;
+  }
+
+  .field input {
+    width: 95%;
+  }
+
+  .field textarea {
+    width: 91%;
+  }
+
+  .field.half {
+    width: 45%;
+  }
+}
+
+input[type=text], input[type=password], textarea, a.btn {
+  border: solid 1px $color-burnt-orange;
+  background: $color-burnt-orange;
+  color: $color-orange;
+  font-size: 16px;
+  padding: 10px;
+}
+
+input[type=submit] {
+  border: solid 1px $color-burnt-orange;
+  background: $color-burnt-orange;
+  color: $color-white;
+  padding: 10px 20px;
+}
+
+span.fileupload {
+  background: $color-burnt-orange;
+  color: $color-orange;
+  font-size: 40px;
+  padding: 0 15px;
+  vertical-align: middle;
+}
+
+div.fileupload {
+  position: relative;
+  overflow: hidden;
+
+  label {
+    display: inline;
+    padding-left: 10px;
+  }
+
+  input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+}

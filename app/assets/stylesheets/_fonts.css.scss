@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'OpenSansRegular';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url('OpenSans.eot');
+  src: url('OpenSans.eot?#iefix') format('embedded-opentype'),
+       url('OpenSans.woff') format('woff'),
+       url('OpenSans.ttf') format('truetype'),
+       url('OpenSans.svg#ChunkFiveRegular') format('svg');
+}
+
+@font-face {
+  font-family: 'OpenSansBold';
+  font-style: 'normal';
+  font-weight: 'bold';
+  src: url('OpenSans-Bold.eot');
+  src: url('OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+       url('OpenSans-Bold.woff') format('woff'),
+       url('OpenSans-Bold.ttf') format('truetype'),
+       url('OpenSans-Bold.svg#ChunkFiveRegular') format('svg');
+}
+
+@font-face {
+  font-family: 'ProximaNovaBold';
+  font-style: 'normal';
+  font-weight: 'bold';
+  src: url('ProximaNova-Extrabld.eot');
+  src: url('ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+       url('ProximaNova-Extrabld.woff') format('woff'),
+       url('ProximaNova-Extrabld.otf') format('opentype'),
+       url('ProximaNova-Extrabld.ttf') format('truetype'),
+       url('ProximaNova-Extrabld.svg#ChunkFiveRegular') format('svg');
+}
