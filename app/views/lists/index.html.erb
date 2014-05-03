@@ -1,6 +1,18 @@
+<% if @lists.count > 0 %>
+<div>
+  <h2>Lists</h2>
+  <ul>
+    <% @lists.each do |list| %>
+      <li><%= list.name %></li>
+    <% end %>
+    <li><a href="/lists/new">Add a list</a></li>
+  </ul>
+</div>
+<% else %>
 <div>
   <h1>You currently do not have any wish lists</h1>
   <div>
     <a href="/lists/new">+ Add a list</a>
   </div>
 </div>
+<% end %>
