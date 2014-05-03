@@ -1,22 +1,11 @@
-<% if @lists.count > 0 %>
-  <div class='list-index-content container'>
-    <div class='span-5 wishlist-sidebar-list'>
-      <h2>Lists</h2>
-      <ul>
-        <% @lists.each do |list| %>
-          <li><%= list.name %></li>
-        <% end %>
-        <li class="add"><a href="/lists/new">Add a list</a></li>
-      </ul>
-    </div>
+<div class='list-index-content container'>
+  <div class='span-5 wishlist-sidebar-list'>
+    <h2>Lists</h2>
+    <ul>
+      <% @lists.each do |list| %>
+        <li><%= list.name %></li>
+      <% end %>
+      <li class="add"><a href="/lists/new">Add a list</a></li>
+    </ul>
   </div>
-<% else %>
-  <div class='empty container'>
-    <div class='push-5 span-14'>
-      <h1>You currently do not have any wish lists</h1>
-      <div class='clear padded'>
-        <a href="/lists/new" class="btn">+ Add a list</a>
-      </div>
-    </div>
-  </div>
-<% end %>
+</div>
